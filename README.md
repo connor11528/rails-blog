@@ -1,4 +1,5 @@
-== Build a Blog with Ruby on Rails
+Build a Blog with Ruby on Rails
+===
 
 Source code for the [Scotch.io tutorial](https://scotch.io/tutorials/build-a-blog-with-ruby-on-rails-part-1)
 
