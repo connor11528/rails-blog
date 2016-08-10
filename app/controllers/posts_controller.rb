@@ -12,8 +12,8 @@ class PostsController < ApplicationController
 
 	# saves post in the database
 	def create
-		@post = Post.new
-		if @post.save(post_params)
+		@post = Post.new(post_params)
+		if @post.save
 			flash[:notice] = "Post created!"
 			redirect_to post_path(@post)
 		else
